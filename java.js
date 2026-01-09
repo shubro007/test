@@ -6,6 +6,6 @@ btn1.addEventListener("click", function() {
 var btn2 = document.getElementById("btn2");
 btn2.addEventListener("click", function() {
     setTimeout( ()=>{
-        navigator.vibrate([50, 200, 50, 200, 50, 200, 50]);
-    }, 5000)
+        navigator.vibrate([20, 500, 20, 500, 20, 500, 20, 500, 20, 500]);
+    }, 3000)
 });
